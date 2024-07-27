@@ -1,0 +1,58 @@
+ "name": "Hyper Drill",
+  "description": "This is the most powerful drill you can manufacture, it has to be liquid cooled for faster operation as the heater fluid may damage the drill's internal function",
+  "type": "Drill",
+  "size": 5,
+  "health": 2120,
+  "itemCapacity": 100,
+  "tier": 7,
+  "drillTime": 75,
+  "drawMineItem": true,
+  "drillEffectChance": 1,
+  "drawRim": true,
+  "heatColor": "5ea1f2",
+  "hasPower": true,
+  "rotateSpeed": 15,
+  "liquidBoostIntensity": 6,
+  "consumes": {
+    power: 0.8,
+    liquid: {
+      liquid: hyper-coolant,
+      amount: 0.09,
+      optional: true,
+      booster: true
+    },
+    liquid: {
+      liquid: heater-fluid,
+      amount: 0.1,
+      optional: false,
+      booster: false
+    } 
+  },
+  "updateEffect": {
+    type: particleEffect
+    "particles": 20,
+    "length": 15,
+    "lifetime": 60,
+    "interp": "circleOut",
+    "sizeInterp": "pow5In",
+    "colorFrom": "ff0000",
+    "colorTo": "ffffff",
+    "sizeFrom": 3,
+    "sizeTo": 0
+    "spin": 5
+  },
+  requirements: [
+    gold/12
+    steel/26
+    leaded-copper/17
+    energy-cell/9
+  ]
+research: steel-bore
+researchCost: [
+    gold/22
+    steel/30
+    leaded-copper/27
+    energy-cell/19
+  ]
+  "category": "production",
+  "hidden": true"

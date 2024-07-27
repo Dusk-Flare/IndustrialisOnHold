@@ -1,0 +1,24 @@
+type: PowerNode
+name: "Power Node"
+description: "A long range power distributor but limited in connections",
+size: 2
+health: 550
+maxNodes: 2
+laserRange: 50
+laserColor1: ff0000
+laserColor2: 800000
+category: power
+requirements: [
+  leaded-copper/25
+  iron/30
+  steel/50
+  gold/450
+]
+research: large-connector
+researchCost: [
+    steel/56
+    iron/36
+    gold/540
+    leaded-copper/36
+  ]
+hidden: true

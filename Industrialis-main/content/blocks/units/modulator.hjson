@@ -1,0 +1,36 @@
+type: Reconstructor
+name: "Modulator",
+health: 1500
+constructTime: 1500
+liquidCapacity: 60
+size: 3
+consumes: {
+  power: 2
+    items: {
+      items: [
+        steel/80
+        leaded-copper/30
+        gold/5
+      ]
+    }
+  liquid: {
+    liquid: water
+    amount: 0.6
+  }
+}
+upgrades: [
+  [disassembler, disruptor]
+  [welder, ionizer]
+]
+requirements: [
+  steel/60
+  leaded-copper/40
+  gold/4
+]
+research: assembler
+researchCost: [
+    steel/75
+    leaded-copper/49
+    gold/8
+  ]
+category: units

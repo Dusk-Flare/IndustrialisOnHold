@@ -1,0 +1,59 @@
+	"outlineColor": "040404",
+  "type": "mech",
+    "name": "Disassembler",
+	"speed": 0.5,
+	"hitSize": 11,
+	"health": 1020,
+	"faceTarget": true,
+	"armor": 3,
+	"range": 180,
+	"rotateSpeed": 2,
+"mechFrontSway": 0.3,
+"mechSideSway": 0.3,
+"mechStepParticles": true,
+"mechStepShake": 0.3,
+	"hovering": false,
+targetAir: true
+weapons: [
+{
+name: disassembler-gun
+x: 4
+y: 0
+mirror: true
+shoot: {
+type: ShootPattern
+shots: 4
+shotDelay: 4
+}
+top: top
+rotate: false
+reload: 60
+recoil: 2
+shootSound: bang
+ejectEffect: none
+bullet: {
+    type: BasicBulletType,
+    speed: 4
+    lifetime: 50
+    damage: 9
+    inaccuracy: 1,
+    width: 3
+    height: 3
+    frontColor: ff0000
+    backColor: 800000
+    shootEffect: "shootSmall"
+    smokeEffect: "shootSmallSmoke"
+    ammoMultiplier: 5
+    collidesTiles: true
+    explodeRange: 5
+    splashDamageRadius: 4
+    splashDamage: 45
+    hitEffect: pointHit
+}
+}
+]
+research: assembler
+researchCost: [
+    steel/45
+    tin/10
+  ]

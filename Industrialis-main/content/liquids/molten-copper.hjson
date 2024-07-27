@@ -1,0 +1,12 @@
+"description": "Molten form of Copper",
+"name": "Molten Copper",
+"gas": false,
+"explosiveness": "0",
+"heatCapacity": "0",
+"temperature": "1",
+"viscosity": ".8",
+"effect": "melting",
+"lightColor": "e17416ff",
+"barColor": "e17416"
+color: e17416
+  "research": "molten-iron"

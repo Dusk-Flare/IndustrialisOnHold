@@ -1,0 +1,55 @@
+drawOutlines: false
+name: "Stinger"
+"type": ItemTurret,
+"size": 2,
+"health": 90,
+range: 192,
+rotateSpeed: 30,
+reload: 6
+burstSpacing: 3
+shots: 9
+xRand: 1
+recoilAmount: 3
+targetGround: false
+targetAir: true
+shootSound: shootAltLong
+ammoTypes: {
+    tin: {
+    type: BasicBulletType
+    speed: 5
+    lifetime: 38.4
+    damage: 35
+    inaccuracy: 10
+    width: 8
+    height: 8
+    frontColor: 600000
+    backColor: 2f0000
+    shootEffect: shootSmall
+    collidesTiles: true
+    despawnHit: true
+  }
+    steel: {
+    type: BasicBulletType
+    speed: 5
+    lifetime: 38.4
+    damage: 21
+    inaccuracy: 6
+    width: 8
+    height: 8
+    frontColor: 600000
+    backColor: 2f0000
+    shootEffect: shootSmall
+    collidesTiles: true
+    despawnHit: true
+   }
+},
+category: turret
+requirements: [
+  tin/25
+  steel/10
+]
+research: mini
+researchCost: [
+    steel/15
+    tin/30
+  ]

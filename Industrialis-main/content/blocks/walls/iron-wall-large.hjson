@@ -1,0 +1,20 @@
+    "type": "Wall",
+    "name": "Large Iron Wall",
+    "health": 1200,
+    "size": 2,
+    category: defense
+requirements: [
+  iron/24
+]
+research: {
+    parent: "iron-wall",
+    objectives: [
+        {
+            type: "OnSector",
+            preset: "Crash-landing"
+        }
+    ]
+}
+researchCost: [
+    iron/31
+  ]

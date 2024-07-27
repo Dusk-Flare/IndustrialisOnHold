@@ -1,0 +1,73 @@
+	"outlineColor": "040404",
+  outlineRadius: 2
+  "type": "legs",
+    "name": "Disruptor",
+	"speed": 0.7,
+	"hitSize": 10,
+	"health": 1160,
+	"faceTarget": true,
+	"armor": 2,
+	"range": 40,
+	"targetAir": true,
+	"rotateSpeed": 3,
+            "legMoveSpace": 1,
+            "legMaxLength": 1.0,
+            "legMinLength": 0.3,
+            "legLengthScl": 0.96,
+            "legForwardScl": 0.3,
+            "legPhysicsLayer": false,
+         "legGroupSize": 3,
+         "legCount": 6,
+         "legExtension": 0,
+        "legContinuousMove": true,
+        "lockLegBase": true,
+        "rippleScale": 1.0,
+        "stepShake": 0.5,
+	"legBaseOffset": 0,
+	"legLength": 13, 
+	"allowLegStep": true,
+	"hovering": false,
+weapons: [
+{
+name: disruptor-gun
+x: 5.5
+y: 0
+mirror: true
+shoot: {
+type: ShootPattern
+shots: 4
+shotDelay: 4
+}
+top: top
+rotate: false
+reload: 60
+recoil: 2
+shootSound: bang
+ejectEffect: none
+bullet: {
+    type: BasicBulletType,
+    speed: 4
+    lifetime: 50
+    damage: 9
+    inaccuracy: 1,
+    width: 3
+    height: 3
+    frontColor: ff0000
+    backColor: 800000
+    shootEffect: "shootSmall"
+    smokeEffect: "shootSmallSmoke"
+    ammoMultiplier: 5
+    collidesTiles: true
+    explodeRange: 5
+    splashDamageRadius: 4
+    splashDamage: 45
+    hitEffect: pointHit
+}
+}
+]
+ research: disassembler
+researchCost: [
+   steel/85
+   leaded-copper/35
+   gold/15
+  ]

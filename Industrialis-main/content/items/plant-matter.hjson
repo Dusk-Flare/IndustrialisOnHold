@@ -1,0 +1,10 @@
+type: item
+name: Plant matter
+description: A very useful plant component, it grows beautifully, maybe it can be useful too?
+  "cost": 1,
+  "color": "164500",
+  "flammability": 0.6,
+  "explosiveness": 0,
+  "radioactivity": 0,
+  "charge": 0
+  "research": "iron"

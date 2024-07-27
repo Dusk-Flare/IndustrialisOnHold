@@ -1,0 +1,17 @@
+  "type": "MessageBlock",
+  "name": "Message Board",
+  "description": "This is the logic text interface.",
+  "health": 200,
+  "size": 1,
+  category: logic
+requirements: [
+    steel/2
+    leaded-copper/1
+    gold/1
+]
+research: CPU
+researchCost: [
+    steel/6
+    leaded-copper/5
+    gold/5
+  ]

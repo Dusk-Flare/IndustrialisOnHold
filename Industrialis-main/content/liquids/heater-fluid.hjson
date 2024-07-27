@@ -1,0 +1,12 @@
+"description": "A liquid heating element, perfect for warming up structures",
+"name": "Heater Fluid",
+"gas": false,
+"explosiveness": "0",
+"heatCapacity": "0",
+"temperature": "1",
+"viscosity": ".1",
+"effect": "melting",
+"lightColor": "ff0000ff",
+"barColor": "ff0000"
+color: 800000
+  "research": "molten-iron"

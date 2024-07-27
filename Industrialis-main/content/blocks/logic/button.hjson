@@ -1,0 +1,16 @@
+type: SwitchBlock
+name: Button
+description: A toggleable button.
+health: 200
+category: logic
+requirements: [
+    steel/2
+    leaded-copper/1
+    gold/1
+]
+research: CPU
+researchCost: [
+    steel/6
+    leaded-copper/5
+    gold/5
+  ]

@@ -1,0 +1,24 @@
+type: Conveyor
+name: "Metalurgic Conveyor"
+hasShadow: true
+health: 250
+speed: 0.16
+displayedSpeed: 16
+junctionReplacement: metalurgic-junction
+bridgeReplacement: metalurgic-bridge
+research: {
+    parent: "metalic-core",
+    objectives: [
+        {
+            type: "OnSector",
+            preset: "Crash-landing"
+        }
+    ]
+}
+researchCost: [
+    iron/5
+  ]
+requirements: [
+  iron/1
+]
+category: distribution

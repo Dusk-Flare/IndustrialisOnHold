@@ -1,0 +1,39 @@
+type: battery
+name: "Large Battery"
+description: "A large energy storage unit",
+size: 3
+health: 550
+	"fullLightColor": "ff0000ff",
+	"emptyLightColor": "800000FF",
+	"hasPower": true,
+	"outputsPower": true,
+	"consumesPower": true,
+	"hasItems": false,
+canOverdrive: false
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawRegion
+      suffix: -top
+    }
+  ]
+}
+consumes: {
+    powerBuffered: 100000
+}
+category: power
+requirements: [
+  leaded-copper/57
+  iron/30
+  gold/45
+]
+research: small-battery
+researchCost: [
+    iron/36
+    gold/54
+    leaded-copper/67
+  ]

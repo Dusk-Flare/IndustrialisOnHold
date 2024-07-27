@@ -1,0 +1,16 @@
+type: LiquidRouter
+name: "Metalurgic Liquid Distributor"
+health: 100
+liquidCapacity: 10
+category: liquid
+placeableLiquid: true
+hasPower: false
+requirements: [
+  steel/3
+  obsidian/1
+]
+research: metalurgic-liquid-junction
+researchCost: [
+    steel/8
+    obsidian/5
+  ]

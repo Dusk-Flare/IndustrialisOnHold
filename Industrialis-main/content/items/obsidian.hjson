@@ -1,0 +1,11 @@
+type: item
+name: Obisidian
+description: A glass like material with sharp edges.
+  "cost": 1,
+  "color": "1d0025",
+  "flammability": 0,
+  "explosiveness": 0,
+  "radioactivity": 0,
+  "charge": 0,
+  hardness: 1
+  "research": "basalt"

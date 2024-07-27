@@ -1,0 +1,24 @@
+{
+	"type": "CoreBlock",
+	"name": "Metalic Core"
+	"health": 6870,
+	"size": 3,
+	"absorbLasers": true,
+	"itemCapacity": 6000,
+	"unitCapModifier": 12,
+    "unitType": "forger",
+requirements: [
+  steel/2000
+  iron/1000
+  tin/1000
+  gold/500
+]
+  "category": "effect",
+   research: {
+    root: true
+    name: Vultar
+    requiresUnlock: false
+    planet: Vultar
+    }
+    alwaysUnlocked: true
+}

@@ -1,0 +1,26 @@
+  "name": "Iron drill",
+  "description": "a small but reliable drill"
+  "type": "Drill",
+  hasLiquids: false
+  "size": 2,
+  "itemCapacity": 5,
+  "tier": 2,
+  "drillTime": 320,
+  liquidBoostIntensity: 1
+    "category": "production",
+research: {
+    parent: "metalic-core",
+    objectives: [
+        {
+            type: "OnSector",
+            preset: "Crash-landing"
+        }
+    ]
+}
+researchCost: [
+    iron/15
+  ]
+  requirements: [
+    iron/10
+  ]
+  "category": "production"

@@ -1,0 +1,18 @@
+type: LiquidRouter
+name: "Metalurgic Reservoir"
+description: "A large insulated reservoir",
+health: 700
+liquidCapacity: 2500
+size: 3
+category: liquid
+placeableLiquid: true
+hasPower: false
+requirements: [
+  steel/25
+  obsidian/750
+]
+research: thermal-tank
+researchCost: [
+    steel/35
+    obsidian/850
+  ]

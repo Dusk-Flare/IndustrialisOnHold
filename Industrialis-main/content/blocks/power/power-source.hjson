@@ -1,0 +1,11 @@
+type:PowerSource
+name:"Power Source"
+description:"An endless source of energy, violates thermo-dinamics, meant for sandbox only."
+size:1
+laserColor1: ff0000
+laserColor2: 800000
+category:power
+requirements:[]
+powerProduction:10000
+alwaysUnlocked: true
+buildVisibility:sandboxOnly

@@ -1,0 +1,11 @@
+"description": "Molten form of Tungsten",
+"name": "Molten Tungsten",
+"gas": false,
+"explosiveness": "0",
+"heatCapacity": "0",
+"temperature": "1",
+"viscosity": ".8",
+"effect": "melting",
+"lightColor": "5a5a5aff",
+"barColor": "5a5a5a"
+color: 5a5a5a

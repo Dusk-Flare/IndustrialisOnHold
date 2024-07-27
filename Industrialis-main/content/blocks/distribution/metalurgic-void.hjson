@@ -1,0 +1,8 @@
+type:ItemVoid
+name:"Void"
+description:"The endless void, destroyer of items, meant for sandbox only."
+size:1
+category:distribution
+requirements:[]
+alwaysUnlocked: true
+buildVisibility:sandboxOnly

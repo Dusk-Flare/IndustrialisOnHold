@@ -1,0 +1,20 @@
+    "type": "Wall",
+    "name": "Iron Wall",
+    "health": 300,
+    "size": 1,
+    category: defense
+requirements: [
+  iron/6
+]
+research: {
+    parent: "mini",
+    objectives: [
+        {
+            type: "OnSector",
+            preset: "Crash-landing"
+        }
+    ]
+}
+researchCost: [
+    iron/15
+  ]

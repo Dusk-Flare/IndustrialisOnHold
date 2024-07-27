@@ -1,0 +1,10 @@
+type: item
+name: Explosive Compound
+description: A dangerous and volatile material. Be careful during transport!
+  "cost": 1,
+  "color": "ff7c00",
+  "flammability": 150,
+  "explosiveness": 130,
+  "radioactivity": 0,
+  "charge": 80
+  "research": "energy-cell"

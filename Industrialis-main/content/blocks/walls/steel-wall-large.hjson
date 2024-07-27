@@ -1,0 +1,12 @@
+    "type": "Wall",
+    "name": "Large Steel Wall",
+    "health": 2400,
+    "size": 2,
+    category: defense
+requirements: [
+  steel/24
+]
+research: steel-wall
+researchCost: [
+    steel/48
+  ]

@@ -1,0 +1,11 @@
+type: item
+name: "Lead Clump"
+description: A dense metal, usually used to dampen radiation.
+  "cost": 1,
+  "color": "202020",
+  "flammability": 0,
+  "explosiveness": 0,
+  "radioactivity": 0,
+  "charge": 0,
+  hardness: 1
+  "research": "steel"

@@ -1,0 +1,13 @@
+"description": "Molten form of Lead",
+"name": "Molten Lead",
+"gas": false,
+"explosiveness": "0",
+"heatCapacity": "0",
+"temperature": "1",
+"viscosity": ".8",
+"effect": "melting",
+"lightColor": "7349b0ff",
+"barColor": "7349b0"
+color: 7349b0
+
+  "research": "molten-iron"

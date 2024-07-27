@@ -1,0 +1,10 @@
+type: item
+name: Lithium
+description: A reactive metal, great for the production of energy cells.
+  "cost": 1,
+  "color": "0d0d0d",
+  "flammability": 10,
+  "explosiveness": 0,
+  "radioactivity": 0,
+  "charge": 10
+  "research": "gold"

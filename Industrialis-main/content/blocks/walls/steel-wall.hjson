@@ -1,0 +1,12 @@
+    "type": "Wall",
+    "name": "Steel Wall",
+    "health": 600,
+    "size": 1,
+    category: defense
+requirements: [
+  steel/6
+]
+research: iron-wall
+researchCost: [
+    steel/12
+  ]

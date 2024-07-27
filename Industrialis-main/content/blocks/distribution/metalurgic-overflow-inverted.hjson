@@ -1,0 +1,22 @@
+type: OverflowGate
+name: "Inverted Overflow Gate"
+health: 160
+invert: true
+research: {
+    parent: "metalurgic-overflow",
+    objectives: [
+        {
+            type: "OnSector",
+            preset: "Crash-landing"
+        }
+    ]
+}
+researchCost: [
+    iron/5
+    tin/10
+  ]
+requirements: [
+  iron/2
+  tin/4
+] 
+category: distribution

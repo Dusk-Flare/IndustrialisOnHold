@@ -1,0 +1,14 @@
+type: LiquidJunction
+name: "Metalurgic Liquid Junction"
+health: 100
+category: liquid
+hasPower: false
+requirements: [
+  steel/2
+  obsidian/1
+]
+research: metalurgic-conduit
+researchCost: [
+    steel/6
+    obsidian/5
+  ]

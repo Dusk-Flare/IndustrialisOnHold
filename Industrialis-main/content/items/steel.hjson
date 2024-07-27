@@ -1,0 +1,11 @@
+type: item
+name: Steel
+description: A very useful alloy, is used in nearly all buildings and reinforcements.
+  "cost": 1,
+  "color": "090909",
+  "flammability": 0,
+  "explosiveness": 0,
+  "radioactivity": 0,
+  "charge": 0,
+  hardness: 1
+  "research": "iron"

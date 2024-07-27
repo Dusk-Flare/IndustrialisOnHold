@@ -1,0 +1,39 @@
+type: battery
+name: "Small Battery"
+description: "A small energy storage unit",
+size: 2
+health: 450
+	"fullLightColor": "ff0000FF",
+	"emptyLightColor": "800000FF",
+	"hasPower": true,
+	"outputsPower": true,
+	"consumesPower": true,
+	"hasItems": false,
+canOverdrive: false
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawRegion
+      suffix: -top
+    }
+  ]
+}
+consumes: {
+    powerBuffered: 32000
+}
+category: power
+requirements: [
+  tin/19
+  iron/10
+  gold/15
+]
+research: connector
+researchCost: [
+    iron/26
+    gold/24
+    tin/28
+  ]

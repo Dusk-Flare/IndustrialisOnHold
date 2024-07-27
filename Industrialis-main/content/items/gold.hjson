@@ -1,0 +1,11 @@
+type: item
+name: Gold
+description: A very useful ore, is used in most eletronic components.
+  "cost": 1,
+  "color": "ff8700",
+  "flammability": 0,
+  "explosiveness": 0,
+  "radioactivity": 0,
+  "charge": 0,
+  hardness: 1
+  "research": "iron"

@@ -1,0 +1,4 @@
+type: Floor
+name: Basalt Floor
+variants: 2
+"itemDrop": "basalt"

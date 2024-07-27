@@ -1,0 +1,19 @@
+type: PowerNode
+name: "Connector"
+description: "Short range power distributor",
+health: 250
+size: 1
+maxNodes: 19
+laserRange: 15
+laserColor1: ff0000
+laserColor2: 800000
+category: power
+requirements: [
+  tin/5
+  gold/1
+]
+research: metalic-core
+researchCost: [
+    tin/10
+    gold/6
+  ]

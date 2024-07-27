@@ -1,0 +1,16 @@
+type: PayloadConveyor
+name: "Industrial Belt"
+size: 3
+moveTime: 40
+moveForce: 500
+payloadLimit: 4 
+research: metalurgic-conveyor
+researchCost: [
+    leaded-copper/25
+    steel/25
+  ]
+category: units
+requirements: [
+  steel/20
+  leaded-copper/20
+] 

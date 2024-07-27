@@ -1,0 +1,17 @@
+type: BaseShield
+name: Shield Bridger
+health: 1000
+size: 2
+radius: 200
+sides: 6
+itemCapacity: 10
+consumes: {
+  power: 15
+  items: {
+    items: [
+      energy-cell/10
+    ]
+  }
+}
+category: effect
+hidden: true

@@ -1,0 +1,11 @@
+type: item
+name: Mineral Coal
+description: A relic of a biological past, ready to be used as fuel.
+  "cost": 1,
+  "color": "ffb6b6",
+  "flammability": 1,
+  "explosiveness": 0.2,
+  "radioactivity": 0,
+  "charge": 0,
+  hardness: 1
+  "research": "iron"

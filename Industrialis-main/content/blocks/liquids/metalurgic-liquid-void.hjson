@@ -1,0 +1,9 @@
+type:LiquidVoid
+name:"Liquid Void"
+description:"The endless void, destroyer of fluids, meant for sandbox only."
+size:1
+category: liquid
+placeableLiquid: true
+requirements:[]
+alwaysUnlocked: true
+buildVisibility:sandboxOnly

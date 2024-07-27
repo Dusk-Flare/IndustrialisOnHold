@@ -1,0 +1,22 @@
+type: Router 
+name: "Distributor"
+health: 160
+itemCapacity: 12
+research: {
+    parent: "metalurgic-junction",
+    objectives: [
+        {
+            type: "OnSector",
+            preset: "Crash-landing"
+        }
+    ]
+}
+researchCost: [
+    iron/5
+    tin/5
+  ]
+requirements: [
+  iron/2
+  tin/2
+] 
+category: distribution

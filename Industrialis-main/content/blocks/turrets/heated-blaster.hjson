@@ -1,0 +1,95 @@
+type: LiquidTurret
+name: "Heated Blaster"
+placeableLiquid: true
+squareSprite: false
+size: 2
+health: 520
+reload: 2
+rotateSpeed: 4.9
+inaccuracy: 1
+shoot: {
+  spread: 17
+  shots: 3.3
+}
+velocityRnd: 0.5
+range: 189
+shootY: 6
+ammoTypes: {
+  molten-copper: {
+    type: LiquidBulletType
+    orbSize: 1.7
+    damage: 0.8
+    speed: 9
+    lifetime: 21
+    liquid: molten-copper
+    knockback: 0.1
+  }
+  molten-gold: {
+    type: LiquidBulletType
+    orbSize: 1.7
+    damage: 0.8
+    speed: 9
+    lifetime: 21
+    liquid: molten-gold
+    knockback: 0.1
+  }
+  molten-iron: {
+    type: LiquidBulletType
+    orbSize: 1.7
+    damage: 0.8
+    speed: 9
+    lifetime: 21
+    liquid: molten-iron
+    knockback: 0.1
+  }
+  molten-lead: {
+    type: LiquidBulletType
+    orbSize: 1.7
+    damage: 0.8
+    speed: 9
+    lifetime: 21
+    liquid: molten-lead
+    knockback: 0.1
+  }
+  molten-tin: {
+    type: LiquidBulletType
+    orbSize: 1.7
+    damage: 0.8
+    speed: 9
+    lifetime: 21
+    liquid: molten-tin
+    knockback: 0.1
+  }
+  molten-tungsten: {
+    type: LiquidBulletType
+    orbSize: 1.7
+    damage: 0.8
+    speed: 9
+    lifetime: 21
+    liquid: molten-tungsten
+    knockback: 0.1
+  }
+  heater-fluid: {
+    type: LiquidBulletType
+    orbSize: 1.7
+    damage: 1
+    speed: 10
+    lifetime: 21
+    liquid: heater-fluid
+    knockback: 0.2
+  }
+}
+category: turret
+requirements: [
+    steel/25
+    tin/20
+    iron/20
+    gold/2
+]
+research: mini
+researchCost: [
+    steel/35
+    tin/20
+    iron/20
+    gold/4
+  ]

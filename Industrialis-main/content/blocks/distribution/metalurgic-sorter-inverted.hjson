@@ -1,0 +1,22 @@
+type: Sorter
+name: "Inverted Sorter"
+health: 160
+invert: true
+research: {
+    parent: "metalurgic-sorter",
+    objectives: [
+        {
+            type: "OnSector",
+            preset: "Crash-landing"
+        }
+    ]
+}
+researchCost: [
+    iron/5
+    tin/10
+  ]
+requirements: [
+  iron/2
+  tin/4
+] 
+category: distribution

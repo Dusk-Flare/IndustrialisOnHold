@@ -1,0 +1,12 @@
+"description": "The perfect coolant, too cold for most applications",
+"name": "Hyper Coolant",
+"gas": false,
+"explosiveness": "0",
+"heatCapacity": "0",
+"temperature": "0",
+"viscosity": ".1",
+"effect": "freezing",
+"lightColor": "7effb5ff",
+"barColor": "53ff9c"
+color: 53ff9c
+  "research": "heater-fluid"

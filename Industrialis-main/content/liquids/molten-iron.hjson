@@ -1,0 +1,12 @@
+"description": "Molten form of Iron",
+"name": "Molten Iron",
+"gas": false,
+"explosiveness": "0",
+"heatCapacity": "0",
+"temperature": "1",
+"viscosity": ".8",
+"effect": "melting",
+"lightColor": "ff2d00ff",
+"barColor": "ff2d00"
+color: ff2d00
+  "research": "iron"

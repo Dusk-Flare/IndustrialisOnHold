@@ -1,0 +1,63 @@
+  "type": "GenericCrafter",
+  name: "Greenhouse"
+  "description": "Creates liquid resonance with the use of water and resonance ore",
+  "health": 350,
+  "size": 3,
+  "hasItems": true,
+  "craftTime": 45,
+  "craftEffect": "none",
+  ignoreLiquidFullness: true
+  dumpExtraLiquid: true
+	"drawer": {
+	"type": "DrawMulti",
+        "drawers": [
+          {
+            type: DrawRegion
+          suffix: -bottom
+          }
+        {
+        "type": "DrawDefault"
+        },
+      {
+       "type": "DrawGlowRegion",
+       "suffix": "-glow", 
+       "glowScale": 8,
+       "color": "000f00ff"
+     }
+      {
+    "type": "DrawParticles",
+    "color": "000f00FF",
+    "alpha": 0.4,
+    "reverse": true,
+    "blending": "additive",
+    "particleSize": 2,
+    "particleRad": 8,
+    "particles": 16,
+    "fadeMargin": 1,
+    "rotateScl": 7,
+    "particleLife": 120
+     },
+    ]
+    },
+  "hasPower": true,
+  "hasLiquids": true,
+  "updateEffect": "none",
+  "consumes": {
+  "power": 1.20,
+    "liquids": [
+    "water/1"
+    ]
+  },
+  "requirements": [
+    iron/25
+    leaded-copper/30
+    gold/3
+  ]
+research: steel-drill
+researchCost: [
+    gold/6
+    iron/30
+    leaded-copper/34
+  ]
+  "category": "production",
+  "outputItem": "plant-matter/1"

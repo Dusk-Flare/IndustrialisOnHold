@@ -1,0 +1,25 @@
+ "type": "ItemBridge",
+  "name": "Metalurgic Bridge",
+  "description": "A stronger and faster form of transporting items.",
+  "health": 160,
+  "range": 6,
+  "transportTime": 3,
+  "hasPower": false,
+research: {
+    parent: "metalurgic-router",
+    objectives: [
+        {
+            type: "OnSector",
+            preset: "Crash-landing"
+        }
+    ]
+}
+researchCost: [
+    iron/8
+    tin/16
+  ]
+requirements: [
+  iron/5
+  tin/7
+] 
+category: distribution

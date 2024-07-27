@@ -1,0 +1,23 @@
+type: Pump
+name: "Hex Pump"
+description: "A large pump meant for industrial scale productions",
+health: 565
+size: 3
+pumpAmount: 0.3
+squareSprite: false
+category: liquid
+hasPower: true
+consumes: {
+power: 0.60
+  }
+requirements: [
+  steel/97
+  obsidian/15
+  gold/20
+]
+research: metalurgic-pump
+researchCost: [
+    steel/105
+    obsidian/25
+    gold/30
+  ]

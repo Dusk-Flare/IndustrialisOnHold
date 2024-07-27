@@ -1,0 +1,21 @@
+type: Sorter
+name: "Sorter"
+health: 160
+research: {
+    parent: "metalurgic-router",
+    objectives: [
+        {
+            type: "OnSector",
+            preset: "Crash-landing"
+        }
+    ]
+}
+researchCost: [
+    iron/5
+    tin/5
+  ]
+requirements: [
+  iron/2
+  tin/2
+] 
+category: distribution

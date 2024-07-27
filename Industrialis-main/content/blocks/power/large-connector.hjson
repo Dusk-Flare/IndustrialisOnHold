@@ -1,0 +1,23 @@
+type: PowerNode
+name: "Large Connector"
+description: "Power distributor",
+size: 2
+health: 450
+maxNodes: 26
+laserRange: 21
+laserColor1: ff0000
+laserColor2: 800000
+category: power
+requirements: [
+  leaded-copper/25
+  iron/30
+  steel/50
+  gold/10
+]
+research: connector
+researchCost: [
+    steel/56
+    iron/36
+    gold/14
+    leaded-copper/36
+  ]

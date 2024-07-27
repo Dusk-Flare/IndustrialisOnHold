@@ -1,0 +1,16 @@
+type: Unloader
+name: "Unloading Port"
+health: 240
+itemCapacity: 0
+requirements: [
+  iron/4
+  tin/5
+  steel/6
+] 
+research: metalurgic-router
+researchCost: [
+    iron/8
+    tin/10
+    steel/12
+  ]
+category: effect

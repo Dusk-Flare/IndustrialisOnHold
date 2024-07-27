@@ -1,0 +1,10 @@
+type: item
+name: Energy Cell
+description: A better way to transport electricity, and more reliable than gold.
+  "cost": 1,
+  "color": "dd0000",
+  "flammability": 10,
+  "explosiveness": 10,
+  "radioactivity": 0,
+  "charge": 10
+  "research": "lithium"

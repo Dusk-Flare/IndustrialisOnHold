@@ -1,0 +1,11 @@
+type: item
+name: Leaded Copper
+description: A maleable and dense alloy, a great alternative for tin.
+  "cost": 1,
+  "color": "ff9e42",
+  "flammability": 0,
+  "explosiveness": 0,
+  "radioactivity": 0,
+  "charge": 0,
+  hardness: 1
+  "research": "copper-rod"

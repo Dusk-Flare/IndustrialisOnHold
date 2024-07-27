@@ -1,0 +1,21 @@
+type: SolarGenerator
+name: "Photovoltaic plating"
+description: "Generates energy based on sunlight",
+size: 1,
+name: Solar Panel
+hasPower: true
+powerProduction: 1
+category: power
+requirements: [
+ tin/5
+ obsidian/1
+ gold/5
+ plant-matter/5
+]
+research: connector
+researchCost: [
+    plant-matter/10
+    obsidian/5
+    gold/9
+    tin/10
+  ]

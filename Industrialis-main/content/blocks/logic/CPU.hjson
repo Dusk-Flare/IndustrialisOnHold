@@ -1,0 +1,19 @@
+  "type": "LogicBlock",
+  "name": CPU,
+  "description": "This Centralized Processing Unit, or CPU for short, will aid you in automating even the most complex of tasks.",
+  "health": 200,
+  "size": 1,
+  "range": 80
+  category: logic
+requirements: [
+    steel/6
+    leaded-copper/5
+    gold/2
+]
+research: metalic-core
+researchCost: [
+    steel/12
+    leaded-copper/10
+    gold/4
+  ]
+instructionsPerTick: 220

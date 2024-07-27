@@ -1,0 +1,11 @@
+type: item
+name: Tin
+description: A very common and versatile ore, is used in nearly all factories.
+  "cost": 1,
+  "color": "7a7a7a",
+  "flammability": 0,
+  "explosiveness": 0,
+  "radioactivity": 0,
+  "charge": 0,
+  hardness: 1
+  "research": "metalic-core"

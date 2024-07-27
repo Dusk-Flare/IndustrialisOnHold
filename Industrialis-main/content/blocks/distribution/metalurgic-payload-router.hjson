@@ -1,0 +1,16 @@
+type: PayloadRouter
+name: "Industrial Router"
+size: 3
+moveTime: 40
+moveForce: 500
+payloadLimit: 4
+research: metalurgic-payload
+researchCost: [
+    leaded-copper/25
+    steel/23
+  ]
+category: units
+requirements: [
+  steel/22
+  leaded-copper/24
+] 

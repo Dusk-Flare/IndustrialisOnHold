@@ -1,0 +1,49 @@
+ "name": "Steel Bore",
+  "description": "This liquid heated drill is faster and stronger than its smaller counterpart",
+  "type": "Drill",
+  "size": 4,
+health: 1060
+  "itemCapacity": 50,
+  "tier": 4,
+  "drillTime": 125,
+  "drawMineItem": true,
+  drillEffectChance: 1
+  drawRim: true
+  heatColor: 5ea1f2
+  hasPower: true
+  rotateSpeed: 6
+  liquidBoostIntensity: 2
+  consumes: {
+    power: 0.8
+    liquid: {
+      liquid: heater-fluid
+      amount: 0.09
+      optional: true
+      booster: true
+    }
+  }
+  updateEffect: {
+    type: particleEffect
+        "particles": 20,
+    "length": 15,
+    "lifetime": 60,
+    "interp": "circleOut",
+    "sizeInterp": "pow5In",
+    "colorFrom": "ff0000",
+    "colorTo": "ffffff",
+    "sizeFrom": 3,
+    "sizeTo": 0
+    spin: 5
+  }
+  requirements: [
+    steel/25
+    leaded-copper/6
+    gold/4
+  ]
+research: steel-drill
+researchCost: [
+    leaded-copper/12
+    steel/30
+    gold/9
+  ]
+  "category": "production"

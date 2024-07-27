@@ -1,0 +1,23 @@
+type: Pump
+name: "Metalurgic Pump"
+description: "A small eletric pump",
+health: 265
+size: 2
+pumpAmount: 0.2
+squareSprite: false
+category: liquid
+hasPower: true
+consumes: {
+power: 0.30
+  }
+requirements: [
+  steel/37
+  obsidian/5
+  gold/10
+]
+research: metalic-core
+researchCost: [
+    gold/22
+    steel/40
+    obsidian/10
+  ]

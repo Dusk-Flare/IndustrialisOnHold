@@ -1,0 +1,12 @@
+"description": "Molten form of Tin",
+"name": "Molten Tin",
+"gas": false,
+"explosiveness": "0",
+"heatCapacity": "0",
+"temperature": "1",
+"viscosity": ".8",
+"effect": "melting",
+"lightColor": "969696ff",
+"barColor": "969696"
+color: 969696
+  "research": "molten-iron"

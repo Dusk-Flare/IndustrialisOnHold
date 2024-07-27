@@ -1,0 +1,23 @@
+type: Junction
+name: "Metalurgic Junction"
+health: 160
+speed: 12
+capacity: 15
+research: {
+    parent: "metalurgic-conveyor",
+    objectives: [
+        {
+            type: "OnSector",
+            preset: "Crash-landing"
+        }
+    ]
+}
+researchCost: [
+    iron/5
+    tin/5
+  ]
+requirements: [
+  iron/2
+  tin/2
+] 
+category: distribution

@@ -1,0 +1,20 @@
+type: Conduit
+name: "Metalurgic Conduit"
+leaks: true
+health: 15
+hasPower: false
+requirements: [
+  steel/1
+  obsidian/1
+]
+liquidCapacity: 6
+liquidPressure: 1
+botColor: 4a4b53
+category: liquid
+junctionReplacement: metalurgic-liquid-junction
+bridgeReplacement: metalurgic-liquid-bridge
+research: metalurgic-pump
+researchCost: [
+    steel/5
+    obsidian/5
+  ]

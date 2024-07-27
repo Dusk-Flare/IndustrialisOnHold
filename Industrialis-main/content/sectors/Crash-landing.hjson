@@ -1,0 +1,6 @@
+    sector: 0,
+    localizedName: "Crash Landing",
+    planet: "Vultar",
+    captureWave: 6,
+    difficulty: 0,
+    alwaysUnlocked: true

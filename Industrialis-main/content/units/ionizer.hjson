@@ -1,0 +1,82 @@
+"type": "flying",
+    "name": "Ionizer",
+    "outlineRadius": 1,
+    "lowAltitude": false,
+    "speed": 7,
+    "accel": 0.3,
+    "drag": 0.05,
+    "flying": true,
+    "health": 480,
+    "hitSize": 12,
+    "armor": 4,
+    "itemCapacity": 20,
+  "outlineColor": "020202",
+    "engineOffset": 9,
+    "faceTarget": true,
+    isEnemy: false,
+weapons: [
+{
+name: ionizer-gun
+x: 0
+y: 3
+mirror: false
+shoot: {
+type: ShootPattern
+shots: 5
+}
+top: false
+rotate: false
+reload: 45
+recoil: 4
+    bullet: {
+      buildingDamageMultiplier: 0.1
+      speed: 4
+      lifetime: 40
+      damage: 13
+      pierce: true
+      pierceBuilding: true
+      pierceCap: 4
+      width: 9
+      height: 40
+        frontColor: 800000
+        backColor: 600000
+      despawnHit: true
+      despawnEffect: none
+      hitEffect: [
+        {
+          type: ParticleEffect
+          particles: 6
+          line: true
+          lifetime: 15
+          length: 15
+          lenFrom: 3
+          lenTo: 0
+          strokeFrom: 1
+          strokeTo: 0
+          colorFrom: 800000
+          colorTo: 600000
+        }
+        {
+          type: WaveEffect
+          sizeFrom: 0
+          sizeTo: 10
+          lifetime: 15
+          strokeFrom: 3
+          strokeTo: 0
+          colorFrom: 800000
+          colorTo: 600000
+        }
+      ]
+    trailChance: 1.3
+    trailLength: 8
+    trailWidth: 4.7
+    trailColor: 800000
+    }
+}
+ ]
+ research: welder
+researchCost: [
+   steel/85
+   leaded-copper/35
+   gold/15
+  ]

@@ -1,0 +1,100 @@
+drawOutlines: false
+name: "Mini"
+"type": ItemTurret,
+"size": 1,
+"health": 50,
+range: 112,
+rotateSpeed: 9,
+reload: 6
+burstSpacing: 1
+shots: 1
+recoilAmount: 1
+targetGround: true
+targetAir: true
+shootSound: shootAltLong
+ammoTypes: {
+    iron: {
+    type: BasicBulletType
+    speed: 2
+    lifetime: 56
+    damage: 25
+    inaccuracy: 10
+    width: 8
+    height: 8
+    frontColor: 600000
+    backColor: 2f0000
+    shootEffect: shootSmall
+    collidesTiles: true
+    despawnHit: true
+      hitEffect: [
+        {
+          type: ParticleEffect
+          particles: 6
+          line: true
+          lifetime: 15
+          length: 15
+          lenFrom: 3
+          lenTo: 0
+          strokeFrom: 1
+          strokeTo: 0
+          colorFrom: 600000
+          colorTo: 2f0000
+        }
+        {
+          type: WaveEffect
+          sizeFrom: 0
+          sizeTo: 10
+          lifetime: 15
+          strokeFrom: 3
+          strokeTo: 0
+          colorFrom: 600000
+          colorTo: 2f0000
+        }
+      ]
+      hitEffect: [
+        {
+          type: ParticleEffect
+          particles: 6
+          line: true
+          lifetime: 15
+          length: 15
+          lenFrom: 3
+          lenTo: 0
+          strokeFrom: 1
+          strokeTo: 0
+          colorFrom: 600000
+          colorTo: 2f0000
+        }
+        {
+          type: WaveEffect
+          sizeFrom: 0
+          sizeTo: 5
+          lifetime: 10
+          strokeFrom: 2
+          strokeTo: 0
+          colorFrom: 600000
+          colorTo: 2f0000
+        }
+      ]
+        "frontColor": 600000
+        "backColor": 2f0000
+      }
+  }
+category: turret
+requirements: [
+  iron/12
+  tin/5
+]
+research: {
+    parent: "metalic-core",
+    objectives: [
+        {
+            type: "OnSector",
+            preset: "Crash-landing"
+        }
+    ]
+}
+researchCost: [
+    iron/16
+    tin/7
+  ]

@@ -1,0 +1,21 @@
+  "type": "LogicDisplay",
+  "name": "Large Interface",
+  "description": "This is a larger version of the interface for logic, used to display images.",
+  "health": 2800,
+  "size": 6,
+  displaySize: 176,
+  maxSides: 60,
+  category: logic
+requirements: [
+    steel/4
+    leaded-copper/2
+    gold/2
+    obsidian/2
+]
+research: interface
+researchCost: [
+    steel/9
+    leaded-copper/6
+    gold/6
+    obsidian/6
+  ]

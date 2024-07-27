@@ -1,0 +1,12 @@
+"description": "Molten form of Gold",
+"name": "Molten Gold",
+"gas": false,
+"explosiveness": "0",
+"heatCapacity": "0",
+"temperature": "1",
+"viscosity": ".8",
+"effect": "melting",
+"lightColor": "ffae11ff",
+"barColor": "ffae11"
+color: ffae11
+  "research": "molten-iron"

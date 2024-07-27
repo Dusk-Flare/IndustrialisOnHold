@@ -1,0 +1,53 @@
+  "type": "GenericCrafter",
+  "health": 300,
+  "name": "Obsidian Klin",
+  "description": "Solidifies the volcanic materials into a glass like material",
+  "size": 2,
+  "hasItems": true,
+  "craftTime": 30,
+  "craftEffect": "none",
+	"drawer": {
+	"type": "DrawMulti",
+        "drawers": [
+                 {
+        "type": "DrawRegion"
+        suffix: -bottom
+        }
+                        {
+        "type": "DrawLiquidRegion"
+        suffix: -liquid
+        drawLiquid: slag
+        }
+          {
+      "type": "DrawDefault"
+        }
+                  {
+      "type": "DrawGlowRegion"
+        suffix: -glow
+        }
+        ]
+        }
+  "hasPower": true,
+  "hasLiquids": true,
+ liquidCapacity: 70
+  "updateEffect": "none",
+  "consumes": {
+  "power": 0.70,
+    "liquids": [
+      "slag/0.5"
+    ],
+    items: [
+      basalt/2
+    ]
+  },
+  "requirements": [
+    steel/10
+    tin/5
+  ]
+research: steel-forge
+researchCost: [
+    steel/15
+    tin/10
+  ]
+  "category": "crafting",
+  "outputItem": "obsidian/1"

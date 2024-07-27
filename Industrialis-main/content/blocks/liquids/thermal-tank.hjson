@@ -1,0 +1,18 @@
+type: LiquidRouter
+name: "Thermal Tank"
+description: "Small insulated liquid tank",
+health: 450
+liquidCapacity: 700
+size: 2
+category: liquid
+placeableLiquid: true
+hasPower: false
+requirements: [
+  obsidian/500
+  steel/7
+]
+research: metalurgic-pump
+researchCost: [
+    steel/14
+    obsidian/550
+  ]

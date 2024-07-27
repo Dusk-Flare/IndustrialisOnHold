@@ -1,0 +1,112 @@
+  "type": multicraft.MultiCrafter,
+  "name": "Mold"
+  "description": "Solidifies molten metals",
+  "health": 250,
+  "size": 1,
+  "hasItems": true,
+  "hasPower": true,
+  "hasLiquids": true,
+  liquidCapacity: 80,
+  ambientSound: steam,
+  ambientSoundVolume: 0.10,
+  recipes: [
+{
+  input: {
+    fluids: industrialis-molten-copper/0.5
+    power: 1.5
+  }
+  output: {
+    items: industrialis-copper-rod/1
+  }
+  craftTime: 30
+  icon: industrialis-copper-rod
+}
+{
+  input: {
+    fluids: industrialis-molten-gold/0.5
+    power: 1.5
+  }
+  output: {
+    items: industrialis-gold/1
+  }
+  craftTime: 30
+  icon: Industrialis-gold
+}
+{
+  input: {
+    fluids: industrialis-molten-iron/0.5
+    power: 1.5
+  }
+  output: {
+    items: industrialis-iron/1
+  }
+  craftTime: 30
+  icon: industrialis-iron
+}
+{
+  input: {
+    fluids: industrialis-molten-lead/0.5
+    power: 1.5
+  }
+  output: {
+    items: industrialis-lead-clump/1
+  }
+  craftTime: 30
+  icon: industrialis-lead-clump
+}
+{
+  input: {
+    fluids:  industrialis-molten-tin/0.5
+    power: 1.5
+  }
+  output: {
+    items: industrialis-tin/1
+  }
+  craftTime: 30
+  icon: industrialis-tin
+}
+{
+  input: {
+    fluids:  slag/0.5
+    power: 1.5
+  }
+  output: {
+    items: industrialis-scrapped-metal/1
+  }
+  craftTime: 30
+  icon: industrialis-scrapped-metal
+}
+]
+     craftEffect: {
+    "type": "MultiEffect",
+	"effects": [
+            {
+              type: ParticleEffect
+              particles: 6
+              lifetime: 300
+              length: 15
+              sizeFrom: 2
+              sizeTo: 4
+              colorFrom: ffffffff
+              colorTo: 40404000
+              strokeFrom: 0.5
+              strokeTo: 0
+              interp: pow3Out
+              spin: 5
+              sizeInterp: pow2In
+            }
+	]
+  }
+  "updateEffect": "none",
+  "requirements": [
+    steel/25
+    tin/10
+    gold/1
+  ]
+research: smelter
+researchCost: [
+    steel/45
+    tin/20
+    gold/4
+  ]
+  "category": "crafting"

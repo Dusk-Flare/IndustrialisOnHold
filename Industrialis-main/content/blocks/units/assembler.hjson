@@ -1,0 +1,38 @@
+type: UnitFactory
+name: "Assembler",
+health: 900
+size: 3
+consumes: {
+  power: 1.2
+}
+plans: [
+  {
+    unit: welder
+    time: 750
+    requirements: [
+     steel/50
+     tin/30
+    ]
+  }
+  {
+    unit: disassembler
+    time: 950
+    requirements: [
+     steel/70
+     tin/40
+     gold/5
+    ]
+  }
+]
+requirements: [
+  steel/60
+  tin/40
+  gold/15
+]
+research: metalic-core
+researchCost: [
+    steel/65
+    tin/45
+    gold/20
+  ]
+category: units

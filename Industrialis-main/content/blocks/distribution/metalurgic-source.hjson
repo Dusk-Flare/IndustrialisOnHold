@@ -1,0 +1,9 @@
+type:ItemSource
+name:"Source"
+description:"An endless fountain of items, meant for sandbox only."
+size:1
+category:distribution
+requirements:[]
+itemsPerSecond:10000
+alwaysUnlocked: true
+buildVisibility:sandboxOnly
