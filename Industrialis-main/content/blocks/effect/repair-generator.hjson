@@ -1,0 +1,24 @@
+  "type": "MendProjector",
+  "name": "Repair Generator",
+  "health": 400,
+  "size": 1,
+  "range": 40,
+  "reload": 120,
+  "phase": "090000",
+  "color": "090000",
+  healPercent: 3
+  consumes: {
+    power: 2
+  }
+  category: effect
+requirements: [
+    steel/25
+    tin/30
+    gold/2
+]
+research: metalic-core
+researchCost: [
+    steel/50
+    tin/30
+    gold/10
+  ]

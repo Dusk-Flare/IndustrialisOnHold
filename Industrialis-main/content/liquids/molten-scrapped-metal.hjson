@@ -1,0 +1,12 @@
+"description": "A mixture of molten metals, generated from the remaining scraps of metal",
+"name": "Molten Scrapped Metal",
+"gas": false,
+"explosiveness": "0",
+"heatCapacity": "0",
+"temperature": "1",
+"viscosity": ".8",
+"effect": "melting",
+"lightColor": "090909ff",
+"barColor": "090909"
+color: 090909
+  "research": "molten-iron"

@@ -1,0 +1,11 @@
+type: Floor
+variants: 1
+liquidDrop: molten-tungsten
+isLiquid: true
+drownTime: 100
+damageTaken: 5
+status: melting
+cacheLayer: tar
+emitLight: true
+lightColor: 5a5a5a
+name: Molten Tungsten

@@ -1,5 +1,5 @@
 type:PowerSource
-name:"Power Source"
+name:"Energy Source"
 description:"An endless source of energy, violates thermo-dinamics, meant for sandbox only."
 size:1
 laserColor1: ff0000

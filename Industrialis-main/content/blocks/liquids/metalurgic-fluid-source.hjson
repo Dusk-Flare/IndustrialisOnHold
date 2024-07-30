@@ -1,5 +1,5 @@
 type:LiquidSource
-name:"Liquid Source"
+name:"Fluid Source"
 description:"An endless fountain of fluids, meant for sandbox only."
 size:1
 category: liquid

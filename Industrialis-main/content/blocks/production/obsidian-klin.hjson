@@ -16,7 +16,7 @@
                         {
         "type": "DrawLiquidRegion"
         suffix: -liquid
-        drawLiquid: slag
+        drawLiquid: molten-scrapped-metal
         }
           {
       "type": "DrawDefault"
@@ -34,7 +34,7 @@
   "consumes": {
   "power": 0.70,
     "liquids": [
-      "slag/0.5"
+      "molten-scrapped-metal/0.5"
     ],
     items: [
       basalt/2

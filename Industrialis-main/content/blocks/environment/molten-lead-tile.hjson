@@ -1,0 +1,12 @@
+type: Floor
+variants: 1
+liquidDrop: molten-lead
+isLiquid: true
+drownTime: 100
+damageTaken: 5
+status: melting
+overlayAlpha: 1
+cacheLayer: slag
+emitLight: true
+lightColor: 7349b0
+name: Molten Lead

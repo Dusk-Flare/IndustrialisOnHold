@@ -67,7 +67,7 @@
 }
 {
   input: {
-    fluids:  slag/0.5
+    fluids:  industrialis-molten-scrapped-metal/0.5
     power: 1.5
   }
   output: {

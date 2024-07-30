@@ -71,7 +71,7 @@
     power: 1.5
   }
   output: {
-    fluids: slag/0.5
+    fluids: industrialis-molten-scrapped-metal/0.5
   }
   craftTime: 30
   icon: industrialis-scrapped-metal

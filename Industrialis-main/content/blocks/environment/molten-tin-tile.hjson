@@ -1,0 +1,10 @@
+type: Floor
+variants: 1
+liquidDrop: molten-tin
+isLiquid: true
+drownTime: 100
+damageTaken: 5
+cacheLayer: tar
+emitLight: true
+lightColor: 969696
+name: Molten Tin

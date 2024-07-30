@@ -1,0 +1,12 @@
+type: Floor
+variants: 1
+liquidDrop: molten-iron
+isLiquid: true
+drownTime: 100
+damageTaken: 5
+status: melting
+overlayAlpha: 1
+cacheLayer: slag
+emitLight: true
+lightColor: ff2d00
+name: Molten Iron
