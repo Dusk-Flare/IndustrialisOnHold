@@ -3,7 +3,6 @@ variants: 1
 liquidDrop: molten-scrapped-metal
 isLiquid: true
 drownTime: 100
-damageTaken: 5
 status: melting
 cacheLayer: tar
 emitLight: true

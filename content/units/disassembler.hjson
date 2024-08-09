@@ -52,7 +52,7 @@ bullet: {
 }
 }
 ]
-research: assembler
+research: terra-assembler
 researchCost: [
     steel/45
     tin/10

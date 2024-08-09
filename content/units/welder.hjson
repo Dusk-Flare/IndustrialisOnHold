@@ -73,7 +73,7 @@ recoil: 4
     }
 }
  ]
-research: assembler
+research: divum-assembler
 researchCost: [
     steel/55
     tin/35

@@ -61,7 +61,7 @@
     "power": 0.5,
     "items": [
     "iron/2"
-    "coal/1"
+    "mineral-coal/1"
     ]
   },
 generateEffectRange: 1
@@ -105,5 +105,6 @@ generateEffect: {
 researchCost: [
     iron/20
     tin/10
+    mineral-coal/15
   ]
   "outputItem": "steel/1"

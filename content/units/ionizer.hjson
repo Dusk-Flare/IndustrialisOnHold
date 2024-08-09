@@ -13,7 +13,6 @@
   "outlineColor": "020202",
     "engineOffset": 9,
     "faceTarget": true,
-    isEnemy: false,
 weapons: [
 {
 name: ionizer-gun

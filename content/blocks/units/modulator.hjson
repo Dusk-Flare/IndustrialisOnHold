@@ -4,6 +4,7 @@ health: 1500
 constructTime: 1500
 liquidCapacity: 60
 size: 3
+placeableLiquid: true
 consumes: {
   power: 2
     items: {
@@ -27,7 +28,7 @@ requirements: [
   leaded-copper/40
   gold/4
 ]
-research: assembler
+research: terra-assembler
 researchCost: [
     steel/75
     leaded-copper/49

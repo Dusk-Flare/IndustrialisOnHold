@@ -1,0 +1,30 @@
+type: UnitFactory
+name: "Aequor Assembler",
+health: 900
+size: 3
+placeableLiquid: true
+consumes: {
+  power: 1.2
+}
+plans: [
+  {
+    unit: molten-drift
+    time: 750
+    requirements: [
+     steel/50
+     tin/30
+    ]
+  }
+]
+requirements: [
+  steel/60
+  tin/40
+  gold/15
+]
+research: divum-assembler
+researchCost: [
+    steel/65
+    tin/45
+    gold/20
+  ]
+category: units
