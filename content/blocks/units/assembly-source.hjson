@@ -1,0 +1,9 @@
+type:PayloadSource
+name:"Assembly Source"
+description:"An endless assembly of units, meant for sandbox only."
+size:5
+category: units
+placeableLiquid: true
+requirements:[]
+alwaysUnlocked: true
+buildVisibility:sandboxOnly

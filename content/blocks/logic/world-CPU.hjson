@@ -1,0 +1,12 @@
+  "type": "worldProcessor",
+  "name": "CWPU",
+  "description": "This Centralized World Processing Unit, or CWPU for short, will aid you in automating even the most complex of tasks.",
+  "health": 200,
+  "size": 1,
+  "range": 80
+  category: logic
+placeableLiquid: true
+requirements:[]
+alwaysUnlocked: true
+buildVisibility:sandboxOnly
+instructionsPerTick: 220

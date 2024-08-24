@@ -1,0 +1,11 @@
+  "type": "worldCell",
+  "name": "World Logic Memory",
+  "description": "This is the worlds logic data storage.",
+  "health": 200,
+  "size": 1,
+  "memoryCapacity": 64,
+  category: logic
+placeableLiquid: true
+requirements:[]
+alwaysUnlocked: true
+buildVisibility:sandboxOnly

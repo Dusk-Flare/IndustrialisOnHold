@@ -1,0 +1,9 @@
+type:PayloadVoid
+name:"Assembly Void"
+description:"The endless void, destroyer of units, meant for sandbox only."
+size:5
+category: units
+placeableLiquid: true
+requirements:[]
+alwaysUnlocked: true
+buildVisibility:sandboxOnly

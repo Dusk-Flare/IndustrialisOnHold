@@ -2,7 +2,7 @@ name: "Industrialis"
 displayName: "[#ff0000[]]Industrialis[white[]]"
 author: "[#ff0000]Du[#ff8800]sk"
 description: "Under development."
-version: "0.10"
+version: "0.11"
 minGameVersion: "143.1"
 dependencies: ["multi-crafter"]
 hidden: false

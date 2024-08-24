@@ -1,0 +1,24 @@
+  "type": "LogicBlock",
+  "name": "Server Compiler",
+  "description": "This Server Compiler, will aid you in automating even the most complex of tasks with its higher range and processes per second, making it stronger than the Code Assembler.",
+  "health": 1600,
+  "size": 3,
+  "range": 640
+  category: logic
+  "consumes": {
+    "liquids": [
+    "hyper-coolant/1.5"
+    ]
+  },
+requirements: [
+    steel/80
+    leaded-copper/35
+    gold/30
+]
+research: code-assembler
+researchCost: [
+    steel/240
+    leaded-copper/120
+    gold/64
+  ]
+instructionsPerTick: 2000

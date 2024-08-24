@@ -1,0 +1,15 @@
+type:PayloadMassDriver
+name:"Payload Launcher"
+description:"An easy way to transport payloads over large terrain."
+"size": 3
+range: 300
+rotateSpeed: 3
+chargeTime:60
+category: units
+placeableLiquid: true
+requirements: [
+    gold/6
+    steel/35
+    leaded-copper/15
+]
+research: metalurgic-payload-router

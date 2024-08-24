@@ -1,6 +1,6 @@
   "type": "MemoryBlock",
   "name": "Logic Memory",
-  "description": "This is the logic text interface.",
+  "description": "This is the logic data storage.",
   "health": 200,
   "size": 1,
   "memoryCapacity": 64,

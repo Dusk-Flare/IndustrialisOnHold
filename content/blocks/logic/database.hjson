@@ -1,0 +1,18 @@
+  "type": "MemoryBlock",
+  "name": "Database",
+  "description": "This is a large assembly of information.",
+  "health": 400,
+  "size": 2,
+  "memoryCapacity": 256,
+  category: logic
+requirements: [
+    steel/24
+    leaded-copper/8
+    gold/8
+]
+research: logic-mermory
+researchCost: [
+    steel/30
+    leaded-copper/15
+    gold/20
+  ]

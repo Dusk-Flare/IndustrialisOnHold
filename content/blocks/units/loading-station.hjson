@@ -1,0 +1,13 @@
+type:PayloadLoader
+name:"Loading Station"
+description:"An easy way to load items, liquids, or even power into payloads for transport."
+"size": 3
+maxPowerConsuption: 20
+category: units
+placeableLiquid: true
+requirements: [
+    gold/6
+    steel/35
+    leaded-copper/15
+]
+research: payload-launcher

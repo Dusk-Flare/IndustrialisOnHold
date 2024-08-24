@@ -1,0 +1,18 @@
+type:PayloadUnloader
+name:"Unloading Station"
+description:"An easy way to unload items, liquids, or even power from payloads."
+"size": 3
+maxPowerUnload: 160
+offLoadSpeed: 8
+maxPowerConsuption: 20
+  consumes: {
+    power: 0.8
+    }
+category: units
+placeableLiquid: true
+requirements: [
+    gold/6
+    steel/35
+    leaded-copper/15
+]
+research: payload-launcher

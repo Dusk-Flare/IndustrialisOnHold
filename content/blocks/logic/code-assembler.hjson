@@ -1,0 +1,19 @@
+  "type": "LogicBlock",
+  "name": Code Assempler,
+  "description": "This Code Assembler, will aid you in automating even the most complex of tasks with its higher range and processes per second, making it stronger than the CPU.",
+  "health": 400,
+  "size": 2,
+  "range": 160
+  category: logic
+requirements: [
+    steel/30
+    leaded-copper/15
+    gold/8
+]
+research: CPU
+researchCost: [
+    steel/60
+    leaded-copper/30
+    gold/16
+  ]
+instructionsPerTick: 440

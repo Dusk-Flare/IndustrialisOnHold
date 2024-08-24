@@ -1,0 +1,10 @@
+  "type": "worldMessage",
+  "name": "World Message Board",
+  "description": "This is the worlds logic text interface.",
+  "health": 200,
+  "size": 1,
+  category: logic
+placeableLiquid: true
+requirements:[]
+alwaysUnlocked: true
+buildVisibility:sandboxOnly
